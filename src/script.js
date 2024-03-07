@@ -3,7 +3,7 @@ root = document.getElementsByTagName("html")[0];
 head = document.getElementsByTagName("head")[0];
 
 // adding stylesheet, attribute and button
-head += '<link rel="stylesheet" href="https://bijenmanlol.github.com/colorthemechanger/src/style.css" type="text/css">';
+head += '<link rel="stylesheet" href="https://bijenmanlol.github.io/colorthemechanger/src/style.css" type="text/css">';
 head.setAttribute("current-color-scheme", "light")
 root = '<button id="color-scheme-selector">LIGHT MODE</button>' + root;
 
